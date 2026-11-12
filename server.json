@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hoyplanes/hoy-planes",
+  "title": "Hoy Planes",
+  "description": "What's on in 12 Spanish provinces: concerts, theatre and free events by date, price and distance",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.hoyplanes.com/mcp/",
+  "icons": [
+    { "src": "https://www.hoyplanes.com/conector/icono-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.hoyplanes.com" }
+  ]
+}

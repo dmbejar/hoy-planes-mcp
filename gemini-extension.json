@@ -1,0 +1,11 @@
+{
+  "name": "hoy-planes",
+  "version": "1.0.1",
+  "description": "What's on in 12 Spanish provinces: concerts, theater, exhibitions, family and free plans by date, topic, price and distance.",
+  "mcpServers": {
+    "hoy-planes": {
+      "type": "http",
+      "url": "https://mcp.hoyplanes.com"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "hoy-planes",
+  "displayName": "Hoy Planes",
+  "version": "1.0.1",
+  "description": "What's on in 12 Spanish provinces: concerts, theater, exhibitions, family and free plans by date, topic, price and distance.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "What concerts are on in Madrid this weekend?",
+    "Free plans with kids in Valencia on Saturday",
+    "Theater in Seville for under 20 euros this week"
+  ],
+  "author": {
+    "name": "Wandary",
+    "url": "https://www.wandary.com"
+  },
+  "homepage": "https://www.hoyplanes.com/mcp/",
+  "repository": "https://github.com/dmbejar/hoy-planes-mcp",
+  "license": "MIT",
+  "keywords": ["events", "things-to-do", "spain", "madrid", "barcelona", "concerts", "theater", "leisure"]
+}

@@ -47,6 +47,10 @@ The optional `lat`/`lng` of `buscar_planes` are the point for the distance filte
 }
 ```
 
+**Gemini CLI**: `gemini extensions install https://github.com/dmbejar/hoy-planes-mcp`
+
+**Antigravity**: `agy plugin install https://github.com/dmbejar/hoy-planes-mcp`
+
 Clients without remote support can use [`mcp-remote`](https://www.npmjs.com/package/mcp-remote): `npx -y mcp-remote https://mcp.hoyplanes.com`.
 
 ## Example questions
@@ -60,6 +64,6 @@ Clients without remote support can use [`mcp-remote`](https://www.npmjs.com/pack
 
 No account and no personal data. The server never receives your conversation or files, only the parameters of each query. Full policy: https://www.hoyplanes.com/politica-de-privacidad/#conector
 
-`server.json` is the entry published in the official MCP Registry.
+`server.json` is the entry published in the official MCP Registry. `gemini-extension.json` is the Gemini CLI extension, and `plugin.json` with `mcp_config.json` is the Antigravity plugin.
 
 Made by [Wandary](https://www.wandary.com) in Spain.
